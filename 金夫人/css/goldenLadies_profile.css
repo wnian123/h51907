@@ -1,0 +1,131 @@
+.w{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/****************************header*****************************/
+header ul li:nth-of-type(6){
+	border-bottom: 2px solid #850913;
+}
+/*************************banner_base*************************/
+.banner img{
+	width: 100%;
+}
+/*************************shoot_base*************************/
+.shoot{
+	width: 1186px;
+	margin: auto;
+}
+.shoot nav{
+	padding-top: 16px;
+	border-bottom: 1px solid #666666;	
+}
+.shoot nav ul{
+	float: right;
+	padding-right: 3px;
+}
+.shoot nav ul li{
+	float: left;
+	line-height: 32px;
+}
+.shoot nav ul li .iconfont{
+	margin-left: 10px;
+	margin-right: 4px;
+}
+.shoot nav ul li:nth-of-type(1){
+	color: #323232;
+	margin-right: 20px;
+}
+.shoot nav ul li:last-of-type{
+	color: #840812;
+}
+.shoot dl{
+	width: 126px;
+	float: left;
+	padding-bottom: 7px;	
+	border-left: 1px solid #666666;
+}
+.shoot dl dt{
+	font-size: 22px;
+	line-height: 35px;
+	text-align: center;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	margin-bottom: 7px;
+}
+.shoot dl dt:before{
+	content: "";
+	height: 13px;
+	width: 1px;
+	float: left;
+	background: #fff;
+	margin-top: 19px;
+	margin-left: -1px;
+}
+.shoot dl dt:after{
+	content: "";
+	height: 16px;
+	width: 1px;
+	float: right;
+	background: #fff;
+	margin-right: -1px;
+}
+.shoot dl dd{
+	font-size: 18px;
+	line-height: 44px;
+	margin-left: 9px;
+	color: #850914;
+
+}
+.shoot h4:before{
+	content: url(../images/circle.png);
+	margin-left: -13.5px;
+}
+.shoot dl dd span{
+	float: right;
+	font-size: 20px;
+}
+.shoot dl dd b{
+	font-weight: normal;
+}
+.shoot section{
+	float: right;
+	width: 979px;
+	padding-top: 28px;
+	/*margin-left: 100px;*/
+}
+.shoot section .title{
+	width: 225px;
+	font-size: 18px;
+	line-height: 32px;
+	border-bottom: 1px solid #b13537;
+	margin-bottom: -4px;
+}
+.shoot section .title span{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 29px;
+	color: #676767;
+	vertical-align: bottom;
+}
+.shoot section p{
+	line-height: 22px;
+	margin-top: 18px;
+	color: #656565;
+}
+.shoot section img{
+	width: 451px;
+	height: 229px;
+	margin-top: 16px;
+	margin-bottom: 20px;
+	transition: all 1s;
+}
+.shoot section img:nth-of-type(2n+1){
+	float: left;
+}
+.shoot section img:nth-of-type(2n){
+	float: right;
+}
+.shoot section img:hover{
+	transform: scale(1.1);
+}

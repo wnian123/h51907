@@ -1,0 +1,260 @@
+.w{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/****************************header*****************************/
+header ul li:nth-of-type(2){
+	border-bottom: 2px solid #850913;
+}
+/*************************banner_base*************************/
+.banner img{
+	width: 100%;
+}
+/*************************shoot_base*************************/
+.shoot{
+	width: 1186px;
+	margin: auto;
+}
+.shoot nav{
+	padding-top: 16px;
+	border-bottom: 1px solid #666666;	
+}
+.shoot nav ul{
+	float: right;
+	padding-right: 3px;
+}
+.shoot nav ul li{
+	float: left;
+	line-height: 32px;
+	color: #656565;
+}
+.shoot nav ul li .iconfont{
+	margin-left: 10px;
+	margin-right: 4px;
+}
+.shoot nav ul li:nth-of-type(1){
+	color: #323232;
+	margin-right: 20px;
+}
+.shoot nav ul li:last-of-type{
+	color: #840812;
+}
+.shoot dl{
+	width: 126px;
+	float: left;
+	padding-bottom: 7px;	
+	border-left: 1px solid #666666;
+}
+.shoot dl dt{
+	font-size: 22px;
+	line-height: 35px;
+	text-align: center;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	margin-bottom: 7px;
+}
+.shoot dl dt:before{
+	content: "";
+	height: 13px;
+	width: 1px;
+	float: left;
+	background: #fff;
+	margin-top: 19px;
+	margin-left: -1px;
+}
+.shoot dl dt:after{
+	content: "";
+	height: 16px;
+	width: 1px;
+	float: right;
+	background: #fff;
+	margin-right: -1px;
+}
+.shoot dl dd{
+	font-size: 18px;
+	line-height: 44px;
+	margin-left: 9px;
+	color: #6d6d6d;
+
+}
+.shoot dl dd span{
+	float: right;
+	font-size: 20px;
+}
+.shoot dl dd b{
+	font-weight: normal;
+}
+.shoot .sub{
+	margin-top: -7px;
+	display: none;
+}
+.shoot dl .sub h6{
+	line-height: 27px;
+	border-bottom: 1px solid transparent;
+	margin-bottom: 4px;
+}
+.shoot .profile{
+	width: 839px;
+	height: 362px;
+	float: right;
+	box-shadow: 0 0 0 1px #c9c9c9,0 0 0 2px #666666;
+	margin-top: 66px;
+	margin-right: 2px;
+	display: none;
+}
+.shoot .profile .bak{
+	width: 239px;
+	height: 358px;
+	background-color: #666666;
+	margin-left: -62px;
+	margin-top: -20px;
+	float: left;
+}
+.shoot .profile .bak img{
+	width: 242px;
+	height: 344px;
+	margin-left: -37px;
+	margin-top: -28px;
+}
+.shoot .profile .text{
+	width: 630px;
+	float: right;
+	padding: 0 15px;
+}
+.shoot .profile .text .title{
+	width: 192px;
+	height: 43px;
+	border: 1px solid #666666;
+	margin: -21px auto 15px;
+	text-align: center;
+	background-color: #fff;
+}
+.shoot .profile .text .title h5{
+	font-size: 24px;
+	line-height: 30px;
+	width: 149px;
+	background-color: #fff;
+	margin: -15px auto 0;
+}
+.shoot .profile .text .title h6{
+	width: 194px;
+	line-height: 29px;
+	margin-left: -1px;
+	margin-bottom: -1px;
+	color: #666666;
+	border-bottom: 1px solid #c9c9c9;
+}
+.shoot .profile .text .title h6:before{
+	content: "";
+	float: left;
+	width: 1px;
+	height: 25px;
+	margin-top: 5px;
+	margin-left: -1px;
+	background-color: #c9c9c9;
+}
+.shoot .profile .text .title h6:after{
+	content: "";
+	float: right;
+	width: 1px;
+	height: 25px;
+	margin-top: 5px;
+	margin-right: -1px;
+	background-color: #c9c9c9;
+}
+.shoot .profile .text p{
+	line-height: 22px;
+	color: #666666;
+	margin-bottom: 22px;
+}
+.shoot dd div.active,.shoot .profile.active{
+	display: block;
+}
+.shoot h4.active{
+	color: #850914;	
+}
+.shoot h4.active:before{
+	content: url(../images/circle.png);
+	margin-left: -13.5px;
+}
+.shoot .sub h6.active{
+	color: #850914;
+	border-bottom: 1px solid #999999;
+}
+/****************************carousel*****************************/
+.carousel{
+	margin-top: 66px;
+	margin-bottom: 83px;	
+	width: 941px;
+	height: 205px;
+	float: right;
+	position: relative;
+}
+.carousel .imgs{
+	width: 870px;
+	height: 205px;
+	line-height: 205px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	
+}
+.carousel .imgs .box{
+	width: 250px;
+	height: 180px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	transition: all 1s;
+}
+
+.carousel .imgs img{
+	width: 250px;
+	height: 180px;
+	width: 100%;
+	height: 100%;
+	transition: all 1s;
+	position: absolute;
+}
+
+.carousel .imgs .box:hover{
+	transform: scale(1.2);
+}
+.carousel .imgs .box:hover .pro{
+	color: #fff;
+	background-color: rgba(131,9,20,.3);
+}
+.carousel .imgs .pro{
+	text-align: center;
+	color: transparent;
+	background-color: rgba(131,9,20,0);
+	height: 60px;
+	line-height: 60px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: all 1s;
+}
+.carousel .iconfont{
+	font-size: 40px;
+	line-height: 40px;
+	height: 40px;
+	color: #6F6F6F;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	cursor: pointer;
+}
+.carousel i:nth-of-type(1){
+	left: 0;
+}
+.carousel i:nth-of-type(2){
+	right: 0;
+}
+.carousel .iconfont:hover{
+	color: red;
+}

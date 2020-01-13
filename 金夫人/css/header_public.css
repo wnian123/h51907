@@ -1,0 +1,74 @@
+/*************************header_index*************************/
+header{
+	height: 117px;
+}
+header h1{
+	margin-left: 4px;
+	height: 117px;
+	line-height: 117px;
+	float: left;
+}
+header h1 img{
+	width: 151px;
+	height: 87px;
+	vertical-align: middle;
+}
+header .right{
+	float: right;
+}
+header .top{
+	height: 59px;
+	margin-bottom: 2px;
+}
+header .top a{
+	font-size: 18px;
+	line-height: 53px;
+	float: right;
+}
+header .top span{
+	font-size: 18px;
+	line-height: 53px;
+	float: right;
+	width: 18px;
+	text-align: center;
+}
+header .top .search{
+	margin-top: 17px;
+	margin-right: 36px;
+	width: 220px;
+	height: 23px;
+	border: 1px solid #333;
+	border-radius: 23px;
+	float: right;
+	overflow: hidden;
+}
+header .top input{
+	width: 195px;
+	height: 23px;
+	line-height: 23px;
+	padding: 7px;
+	box-sizing: border-box;
+	float: left;	
+}
+header .top i{
+	width: 25px;
+	height: 23px;
+	float: left;	
+}
+header ul li{
+	float: left;
+	font-size: 18px;
+	line-height: 33px;
+	margin-left: 57px;
+}
+header ul li:hover{
+	border-bottom: 2px solid #850913;
+}
+/*************************footer_public*************************/
+footer{
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	color: #fff;
+	background-color: #666666;
+}

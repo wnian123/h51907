@@ -1,0 +1,229 @@
+.w{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/****************************header*****************************/
+header ul li:nth-of-type(4){
+	border-bottom: 2px solid #850913;
+}
+/*************************banner_base*************************/
+.banner img{
+	width: 100%;
+}
+/*************************shoot_base*************************/
+.shoot{
+	width: 1186px;
+	margin: auto;
+}
+.shoot nav{
+	padding-top: 16px;
+	border-bottom: 1px solid #666666;	
+}
+.shoot nav ul{
+	float: right;
+	padding-right: 3px;
+}
+.shoot nav ul li{
+	float: left;
+	line-height: 32px;
+}
+.shoot nav ul li .iconfont{
+	margin-left: 10px;
+	margin-right: 4px;
+}
+.shoot nav ul li:nth-of-type(1){
+	color: #323232;
+	margin-right: 20px;
+}
+.shoot nav ul li:last-of-type{
+	color: #840812;
+}
+/****************************************aside_nav************************/
+.shoot dl{
+	width: 126px;
+	float: left;
+	padding-bottom: 7px;	
+	border-left: 1px solid #666666;
+}
+.shoot dl dt{
+	font-size: 22px;
+	line-height: 35px;
+	text-align: center;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	margin-bottom: 7px;
+}
+.shoot dl dt:before{
+	content: "";
+	height: 13px;
+	width: 1px;
+	float: left;
+	background: #fff;
+	margin-top: 19px;
+	margin-left: -1px;
+}
+.shoot dl dt:after{
+	content: "";
+	height: 16px;
+	width: 1px;
+	float: right;
+	background: #fff;
+	margin-right: -1px;
+}
+.shoot dl dd{
+	font-size: 18px;
+	line-height: 44px;
+	margin-left: 9px;
+	color: #6d6d6d;
+}
+.shoot h4.active:before{
+	content: url(../images/circle.png);
+	margin-left: -13.5px;
+}
+.shoot h4.active{
+	color: #850914;
+}
+.shoot dl dd span{
+	float: right;
+	font-size: 20px;
+}
+.shoot dl dd b{
+	font-weight: normal;
+}
+/***************************section**********************/
+
+.shoot section{
+	float: right;
+	width: 1014px;
+	margin-top: 34px;
+	display: none;
+}
+.shoot section.active{
+	display: block;
+}
+
+
+section .genu{
+	width: 1014px;
+	height: 375px;
+	background-color: #a20a09;
+		
+}
+section .genu img{
+	width: 310px;
+	height: 360px;
+	/*margin-left: 28px;*/
+	margin-top: -18px;
+	margin-right: 22px;
+	float: right;
+}
+
+section .genu .have{
+	width: 682px;
+	float: left;
+	color: #fff;
+}
+section .head h3{
+	margin-top: 16px;
+	font-size: 18px;
+	line-height: 30px;
+	height: 30px;
+	margin-left: 8px;
+}
+section .head h3 span{
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: 16px;
+	line-height: 25px;
+	margin-left: 10px;
+}
+section .head .line{
+	height: 7px;
+	background-size: 6px 7px;
+	box-sizing: border-box;
+	padding: 3px 0 0 5px;
+	background:  url(../images/g2.png) 0 0 no-repeat;
+}
+section .head .line span{
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: #f1f1f1;	
+}
+section .genu p{
+	line-height: 22px;
+	margin-top: 25px;
+	margin-left: 8px;
+	margin-right: ;
+}
+section .title .head .line{
+	height: 11px;
+	background-size: 6px 11px;
+	background:  url(../images/i3.png) 0 0 no-repeat;
+	padding: 5px 0 0 5px;
+	
+}
+section .title .head .line span{
+	background: #424242;
+}
+section .title h3{
+	color: #6f6f6f;
+}
+section ul{
+	margin-top: 12px;
+	margin-bottom: 9px;
+	overflow: hidden;
+}
+section ul li{
+	float: left;
+	width: 210px;
+	height: 240px;
+	overflow: hidden;
+	margin-right: 58px;
+	position: relative;
+}
+section ul li:last-of-type{
+	margin-right: 0;
+}
+section ul li img{
+	width: 210px;
+	height: 240px;
+	transition: all 1s;
+}
+section ul li span{
+	display: block;
+	height: 57px;
+	line-height: 57px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #850914;
+	opacity: 0;
+	transition: 1s;
+}
+section ul li:hover span {
+	opacity: .5;
+}
+section ul li:hover img{
+	transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

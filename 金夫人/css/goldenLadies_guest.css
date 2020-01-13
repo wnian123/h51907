@@ -1,0 +1,163 @@
+.w{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/****************************header*****************************/
+header ul li:nth-of-type(3){
+	border-bottom: 2px solid #850913;
+}
+/*************************banner_base*************************/
+.banner img{
+	width: 100%;
+}
+/*************************shoot_base*************************/
+.shoot{
+	width: 1186px;
+	margin: auto;
+}
+.shoot nav{
+	padding-top: 16px;
+	border-bottom: 1px solid #666666;	
+}
+.shoot nav ul{
+	float: right;
+	padding-right: 3px;
+}
+.shoot nav ul li{
+	float: left;
+	line-height: 32px;
+}
+.shoot nav ul li .iconfont{
+	margin-left: 10px;
+	margin-right: 4px;
+}
+.shoot nav ul li:nth-of-type(1){
+	color: #323232;
+	margin-right: 20px;
+}
+.shoot nav ul li:last-of-type{
+	color: #840812;
+}
+/****************************************aside_nav************************/
+.shoot dl{
+	width: 126px;
+	float: left;
+	padding-bottom: 7px;	
+	border-left: 1px solid #666666;
+}
+.shoot dl dt{
+	font-size: 22px;
+	line-height: 35px;
+	text-align: center;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	margin-bottom: 7px;
+}
+.shoot dl dt:before{
+	content: "";
+	height: 13px;
+	width: 1px;
+	float: left;
+	background: #fff;
+	margin-top: 19px;
+	margin-left: -1px;
+}
+.shoot dl dt:after{
+	content: "";
+	height: 16px;
+	width: 1px;
+	float: right;
+	background: #fff;
+	margin-right: -1px;
+}
+.shoot dl dd{
+	font-size: 18px;
+	line-height: 44px;
+	margin-left: 9px;
+	color: #6d6d6d;
+}
+.shoot h4.active:before{
+	content: url(../images/circle.png);
+	margin-left: -13.5px;
+}
+.shoot h4.active{
+	color: #850914;
+}
+.shoot dl dd span{
+	float: right;
+	font-size: 20px;
+}
+.shoot dl dd b{
+	font-weight: normal;
+}
+/***************************section**********************/
+.shoot section{
+	float: right;
+	width: 1014px;
+	padding-top: 28px;	
+	display: none;
+}
+.shoot section .title{
+	width: 225px;
+	font-size: 18px;
+	line-height: 32px;
+	border-bottom: 1px solid #b13537;
+}
+.shoot section .title span{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 29px;
+	color: #676767;
+	vertical-align: bottom;
+}
+.shoot section p{
+	line-height: 22px;
+	margin-top: 18px;
+	color: #656565;
+}
+.shoot section .img{
+	width: 318px;	
+	margin-top: 58px;
+	margin-right: 30px;
+	margin-bottom: 18px;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+.shoot section .img img{
+	width: 318px;
+	height: 361px;	
+}
+.shoot section .img:last-of-type{
+	margin-right: 0;
+}
+.shoot section .img h3{
+	font-size: 20px;
+	line-height: 60px;
+}
+.shoot section .img .pro{
+	height: 112px;
+	position: absolute;
+	top: 249px;
+	left: 0;
+	right: 0;
+	line-height: 112px;
+	color: #fff;
+	background-color: #850914;
+	opacity: 0;
+	transition: 1s;
+}
+.shoot section .img .pro span{
+	width: 268px;
+	line-height: 22px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.shoot section .img:hover .pro{
+	opacity: .5;
+}
+.shoot section.active{
+	display: block;
+}
